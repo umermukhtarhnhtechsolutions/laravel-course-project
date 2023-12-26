@@ -73,7 +73,7 @@
                                     <label class="form-check-label text-secondary" for="flexCheckDefault">Remember
                                         me</label>
                                 </div>
-                                <a href="reset_password.html" class="btn-text ms-auto">Lost password?</a>
+                                <a href="{{ url('/reset-password') }}" class="btn-text ms-auto">Lost password?</a>
                             </div>
 
                             <button class="btn btn-primary w-100 text-uppercase" type="submit">Log In</button>

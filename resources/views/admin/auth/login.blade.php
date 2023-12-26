@@ -48,7 +48,7 @@
                                             href="{{ url('/admin-forgot-password') }}">Forgot
                                             Password ?</a>
                                     </div>
-                                    <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign
+                                    <a href="{{ url('/admin-dashboard') }}" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign
                                         In</a>
                                 </form>
                             </div>

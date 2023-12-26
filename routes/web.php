@@ -77,6 +77,10 @@ Route::get('/user-login', function () {
     return view('user.auth.login');
 });
 
+Route::get('/reset-password', function () {
+    return view('user.auth.reset');
+});
+
 Route::get('/', function () {
     return view('user.pages.index');
 });

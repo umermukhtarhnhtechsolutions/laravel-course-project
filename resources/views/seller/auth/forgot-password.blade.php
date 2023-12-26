@@ -27,7 +27,7 @@
                                         <label for="exampleInputEmail1" class="form-label">Email</label>
                                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                     </div>
-                                    <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Forgot Password</a>
+                                    <a href="{{ url('/seller-forgot-password') }}" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Forgot Password</a>
                                 </form>
                             </div>
                         </div>
