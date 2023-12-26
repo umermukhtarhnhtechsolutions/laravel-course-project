@@ -75,29 +75,18 @@
             <div class="footer-column footer-menu mb-4 mb-lg-0">
                 <h6 class="sub-menu__title text-uppercase">Shop</h6>
                 <ul class="sub-menu__list list-unstyled">
-                    <li class="sub-menu__item"><a href="shop2.html" class="menu-link menu-link_us-s">New Arrivals</a>
-                    </li>
-                    <li class="sub-menu__item"><a href="shop3.html" class="menu-link menu-link_us-s">Accessories</a>
-                    </li>
-                    <li class="sub-menu__item"><a href="shop4.html" class="menu-link menu-link_us-s">Men</a></li>
-                    <li class="sub-menu__item"><a href="shop5.html" class="menu-link menu-link_us-s">Women</a></li>
-                    <li class="sub-menu__item"><a href="shop1.html" class="menu-link menu-link_us-s">Shop All</a></li>
+                    <li class="sub-menu__item"><a href="{{ url('/shop') }}" class="menu-link menu-link_us-s">Shop All</a></li>
                 </ul>
             </div><!-- /.footer-column -->
 
             <div class="footer-column footer-menu mb-4 mb-lg-0">
                 <h6 class="sub-menu__title text-uppercase">Help</h6>
                 <ul class="sub-menu__list list-unstyled">
-                    <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Customer Service</a>
-                    </li>
                     <li class="sub-menu__item"><a href="{{ url('/profile') }}" class="menu-link menu-link_us-s">My
                             Account</a></li>
-                    <li class="sub-menu__item"><a href="store_location.html" class="menu-link menu-link_us-s">Find a
-                            Store</a></li>
-                    <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Legal & Privacy</a>
+                    <li class="sub-menu__item"><a href="{{ url('/terms') }}" class="menu-link menu-link_us-s">Legal & Privacy</a>
                     </li>
-                    <li class="sub-menu__item"><a href="contact.html" class="menu-link menu-link_us-s">Contact</a></li>
-                    <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Gift Card</a></li>
+                    <li class="sub-menu__item"><a href="{{ url('/contact') }}" class="menu-link menu-link_us-s">Contact</a></li>
                 </ul>
             </div><!-- /.footer-column -->
 

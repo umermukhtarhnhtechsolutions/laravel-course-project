@@ -9,24 +9,16 @@
           </a>
 
           <div class="logo">
-              <a href="https://uomo-html.flexkitux.com/">
+              <a href="{{ url('/') }}">
                   <img src="{{ asset('user/assets/images/logo.png') }}" alt="Uomo" class="logo__image d-block" />
               </a>
           </div><!-- /.logo -->
-
-          <a href="#" class="header-tools__item header-tools__cart js-open-aside" data-aside="cartDrawer">
-              <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <use href="#icon_cart" />
-              </svg>
-              <span class="cart-amount d-block position-absolute js-cart-items-count">3</span>
-          </a>
       </div><!-- /.container -->
 
       <nav
           class="header-mobile__navigation navigation d-flex flex-column w-100 position-absolute top-100 bg-body overflow-auto">
           <div class="container">
-              <form action="https://uomo-html.flexkitux.com/Demo1/search.html" method="GET"
+              <form action="{{ url('/') }}" method="GET"
                   class="search-field position-relative mt-4 mb-3">
                   <div class="position-relative">
                       <input class="search-field__input w-100 border rounded-1" type="text" name="search-keyword"
@@ -119,7 +111,7 @@
       <div class="container">
           <div class="header-desk header-desk_type_1">
               <div class="logo">
-                  <a href="https://uomo-html.flexkitux.com/">
+                  <a href="{{ url('/') }}">
                       <img src="{{ asset('user/assets/images/logo.png') }}" alt="Uomo"
                           class="logo__image d-block" />
                   </a>
@@ -155,7 +147,7 @@
                       </div>
 
                       <div class="search-popup js-hidden-content">
-                          <form action="https://uomo-html.flexkitux.com/Demo1/search_result.html" method="GET"
+                          <form action="{{ url('/') }}" method="GET"
                               class="search-field container">
                               <p class="text-uppercase text-secondary fw-medium mb-4">What are you looking for?</p>
                               <div class="position-relative">
